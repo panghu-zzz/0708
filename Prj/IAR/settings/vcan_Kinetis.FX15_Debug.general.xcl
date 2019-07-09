@@ -1,0 +1,17 @@
+"F:\IAR_ARM\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"F:\IAR_ARM\Embedded Workbench 8.2\arm\bin\armJET.dll" 
+
+"F:\Car\FSKE\MK60程序0 writ\LCD_摄像头\Prj\IAR\FX15_Debug\Exe\vcan_Kinetis.out" 
+
+--plugin="F:\IAR_ARM\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="F:\IAR_ARM\Embedded Workbench 8.2\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro="F:\IAR_ARM\Embedded Workbench 8.2\arm\config\debugger\NXP\Kxx_Trace.dmac" 
+
+--flash_loader="F:\IAR_ARM\Embedded Workbench 8.2\arm\config\flashloader\Freescale\FlashK60Dxxx128K.board" 
+
+
+
+

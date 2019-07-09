@@ -9,20 +9,14 @@ float loca_PreIntegral=0,loca_PreError=0,loca_PreU=0;
 
 void duoji_init()
 {
-//    ftm_pwm_init(DUO_JI,DUO_JI_CH,60,dj_center);
-    ftm_pwm_init(DUO_JI,DUO_JI_CH,60,dj_center);
+    FTM_PWM_init(FTM2, FTM_CH0,dj_frequency,dj_center);//200hz
 }
 void change_angle(uint32 duty)
 {
-    dj_act_jiaodu=duty;
-   ftm_pwm_duty(DUO_JI,DUO_JI_CH,duty);
+   dj_act_jiaodu=duty;
+   FTM_PWM_Duty(FTM2,FTM_CH0,duty);
 }
-//对舵机相关的初始化
-void init_dircetion()
-{
-    //初始化舵机相关变量
-    duoji_init();
-}
+
 //   第一步：定义PID变量结构体，代码如下：
 struct _pid{
     float SetSpeed;            //定义设定值
